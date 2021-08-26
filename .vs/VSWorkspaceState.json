@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Domain",
+    "\\Domain\\Entities",
+    "\\Domain\\Service",
+    "\\Infrastructure",
+    "\\Infrastructure\\Repositories"
   ],
-  "SelectedNode": "\\EC.sln",
+  "SelectedNode": "\\Domain\\Service\\ProdutoService.cs",
   "PreviewInSolutionExplorer": false
 }

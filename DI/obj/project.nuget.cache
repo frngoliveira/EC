@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "K1ZgDF1gHk3L8fOE/ri3faSm3R4Zibnly1HiVCufAaJaqORAsk1HjtgvTXm8bYBe12ezp++OEIT4OwT1JbI60g==",
+  "success": true,
+  "projectFilePath": "C:\\Ecommerce\\DI\\DI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ferna\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

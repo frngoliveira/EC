@@ -1,4 +1,4 @@
-﻿using Api.Dtos;
+﻿using DTO.Dtos;
 using AutoMapper;
 using Domain.Entities;
 using Domain.Interfaces.Services;
@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace Api.Controllers
 {
@@ -74,6 +75,14 @@ namespace Api.Controllers
                 return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco de Dados Falhou {ex.Message}");
             }
         }
+
+        //public async Task<List<MOVIMENTO_MANUAL>> GetProCpsifManual()
+        //{
+        //    var query = await _movimentoManualService.GetAll()
+        //        .;
+
+        //    return Ok();
+        //}
 
         [HttpPost]
         [Route("Post")]

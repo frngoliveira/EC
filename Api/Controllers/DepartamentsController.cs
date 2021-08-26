@@ -1,7 +1,7 @@
-﻿using Api.Dtos;
-using AutoMapper;
+﻿using AutoMapper;
 using Domain.Entities;
 using Domain.Interfaces.Services;
+using DTO.Dtos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;

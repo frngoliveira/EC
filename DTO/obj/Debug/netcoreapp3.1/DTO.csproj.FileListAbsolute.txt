@@ -1,0 +1,9 @@
+C:\Ecommerce\DTO\bin\Debug\netcoreapp3.1\DTO.deps.json
+C:\Ecommerce\DTO\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Ecommerce\DTO\bin\Debug\netcoreapp3.1\DTO.pdb
+C:\Ecommerce\DTO\obj\Debug\netcoreapp3.1\DTO.csprojAssemblyReference.cache
+C:\Ecommerce\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfoInputs.cache
+C:\Ecommerce\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
+C:\Ecommerce\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
+C:\Ecommerce\DTO\obj\Debug\netcoreapp3.1\DTO.dll
+C:\Ecommerce\DTO\obj\Debug\netcoreapp3.1\DTO.pdb

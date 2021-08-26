@@ -70,3 +70,5 @@ C:\Ecommerce\Api\obj\Debug\netcoreapp3.1\Api.genruntimeconfig.cache
 C:\Ecommerce\Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 C:\Ecommerce\Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Ecommerce\Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Ecommerce\Api\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Ecommerce\Api\bin\Debug\netcoreapp3.1\DTO.pdb

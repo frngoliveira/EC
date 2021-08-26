@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Api.Dtos
+namespace DTO.Dtos
 {
     public class DepartamentDto
     {

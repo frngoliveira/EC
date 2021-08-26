@@ -1,6 +1,6 @@
-using Api.Dtos;
 using AutoMapper;
 using Domain.Entities;
+using DTO.Dtos;
 
 namespace Api.Helpers
 {
