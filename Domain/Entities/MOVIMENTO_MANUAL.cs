@@ -15,7 +15,7 @@ namespace Domain.Entities
         public DateTime? DAT_MOVIMENTO { get; set; }               
         public string COD_USUARIO { get; set; }        
         public decimal VAL_VALOR { get; set; }        
-        public string COD_COSIF { get; set; }        
-
+        public string COD_COSIF { get; set; }
+        public PRODUTO_COSIF PRODUTO_COSIF { get; set; }
     }
 }

@@ -14,9 +14,9 @@ namespace Domain.Service
             _movimentoManualRepository = movimentoManualRepository;
         }
 
-        public async Task<List<MOVIMENTO_MANUAL>> GetLancamento(string produtoId, string cosifId)
+        public async Task<List<MOVIMENTO_MANUAL>> GetLancamento()
         {
-            return await _movimentoManualRepository.GetLancamento(produtoId, cosifId);
+            return await _movimentoManualRepository.GetLancamento();
         }
     }
 

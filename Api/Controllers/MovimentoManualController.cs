@@ -76,13 +76,21 @@ namespace Api.Controllers
             }
         }
 
-        //public async Task<List<MOVIMENTO_MANUAL>> GetProCpsifManual()
-        //{
-        //    var query = await _movimentoManualService.GetAll()
-        //        .;
-
-        //    return Ok();
-        //}
+        [HttpGet]
+        [Route("GetProCpsifManual")]
+        public async Task<IActionResult> GetProCpsifManual()
+        {
+            try
+            {
+                var movimentoManual = await _movimentoManualService.GetLancamento();
+                return Ok(movimentoManual);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            
+        }
 
         [HttpPost]
         [Route("Post")]
@@ -99,9 +107,9 @@ namespace Api.Controllers
                 _movimentoManual.NUM_LANCAMENTO = c + 1;
 
                 var movimentoManual = _mapper.Map<MOVIMENTO_MANUAL>(_movimentoManual);
-
                 
                 await _movimentoManualService.Add(movimentoManual);
+
                 return Ok();
             }
             catch (Exception ex)

@@ -37,14 +37,14 @@ namespace Infrastructure.Data
             modelBuilder.Entity<PRODUTO_COSIF>()
                 .HasKey(pc => pc.COD_COSIF);
 
-            //modelBuilder.Entity<PRODUTO_COSIF>()
-            //    .HasOne(mm => mm.MOVIMENTO_MANUAL)
-            //    .WithOne(mm => mm.PRODUTO_COSIF)
-            //    .HasForeignKey<MOVIMENTO_MANUAL>(pc => pc.COD_COSIF);
+            modelBuilder.Entity<MOVIMENTO_MANUAL>()
+                .HasOne(mm => mm.PRODUTO_COSIF)
+                .WithOne()
+                .HasForeignKey<MOVIMENTO_MANUAL>(pc => pc.COD_COSIF);
 
             modelBuilder.Entity<PRODUTO_COSIF>()
                .HasOne(mm => mm.PRODUTO)
-               .WithOne(mm => mm.PRODUTO_COSIF)
+               .WithOne()
                .HasForeignKey<PRODUTO>(pc => pc.COD_PRODUTO);
 
         }
