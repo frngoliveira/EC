@@ -18,7 +18,7 @@ namespace Infrastructure.Repositories
             {
                  return await (from m in ctx.MOVIMENTO_MANUAL
                        join c in ctx.PRODUTO_COSIF on m.COD_COSIF equals c.COD_COSIF
-                       join p in ctx.PRODUTO on c.COD_PRODUTO equals p.COD_PRODUTO
+                       join p in ctx.PRODUTO on m.COD_PRODUTO equals p.COD_PRODUTO
                        select new
                        {
                            m.DAT_MES,
@@ -27,7 +27,7 @@ namespace Infrastructure.Repositories
                            m.NUM_LANCAMENTO,
                            m.VAL_VALOR,
                            p.DESC_PRODUTO,
-                           p.COD_PRODUTO
+                           m.COD_PRODUTO
                        }
                    ).OrderBy(mm => mm.NUM_LANCAMENTO).ToListAsync();
             }           
