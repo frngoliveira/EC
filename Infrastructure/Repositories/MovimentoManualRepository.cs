@@ -29,7 +29,7 @@ namespace Infrastructure.Repositories
                            p.DESC_PRODUTO,
                            p.COD_PRODUTO
                        }
-                   ).ToListAsync();
+                   ).OrderBy(mm => mm.NUM_LANCAMENTO).ToListAsync();
             }           
         }
     }
