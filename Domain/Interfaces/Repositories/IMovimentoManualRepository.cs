@@ -8,6 +8,6 @@ namespace Domain.Interfaces.Repositories
 {
     public interface IMovimentoManualRepository : IRepositoryBase<MOVIMENTO_MANUAL>
     {
-        Task<List<MOVIMENTO_MANUAL>> GetLancamento();
+        Task<object> GetLancamento();
     }
 }

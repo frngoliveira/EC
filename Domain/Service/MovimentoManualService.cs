@@ -14,7 +14,7 @@ namespace Domain.Service
             _movimentoManualRepository = movimentoManualRepository;
         }
 
-        public async Task<List<MOVIMENTO_MANUAL>> GetLancamento()
+        public async Task<object> GetLancamento()
         {
             return await _movimentoManualRepository.GetLancamento();
         }
