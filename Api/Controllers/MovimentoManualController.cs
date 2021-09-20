@@ -88,8 +88,7 @@ namespace Api.Controllers
             catch (Exception ex)
             {
                 throw ex;
-            }
-            
+            }            
         }
 
         [HttpPost]
